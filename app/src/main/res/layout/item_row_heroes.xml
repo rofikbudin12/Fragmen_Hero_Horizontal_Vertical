@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/dimen_vertical"
+    android:layout_marginEnd="@dimen/dimen_vertical"
+    android:layout_marginTop="@dimen/dimen_vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_vertical">
+        <ImageView
+            android:id="@+id/iv_foto"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/ahmad_dahlan"/>
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/TextContent.TextTitle"
+            android:text="@string/txt_name"
+            android:layout_toEndOf="@id/iv_foto"
+            android:layout_toRightOf="@id/iv_foto" />
+
+        <TextView
+            android:id="@+id/tv_deskripsi"
+            style="@style/TextContent.TextDesc"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="@string/txt_description"
+            android:layout_toEndOf="@id/iv_foto"
+            android:layout_below="@id/tv_name"
+            android:layout_toRightOf="@id/iv_foto" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

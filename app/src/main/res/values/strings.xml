@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentHero</string>
+    <string name="txt_name" />
+    <string name="txt_description" />
+    <string name="img_hero" />
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
